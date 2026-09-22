@@ -1,0 +1,34 @@
+INVITACIÓN · WILSON & YESSICA
+
+ESTADO: diseño y funciones locales listos. La confirmación de asistencia está pendiente de conectar Google Forms. No compartir con los invitados hasta completar esa conexión.
+
+Incluye:
+- Sobre animado, paisaje floral borgoña, blanco y verde.
+- Foto original dentro de un óvalo con marco floral.
+- Canción suministrada; comienza con el toque para abrir. Control de pausa y reproducción.
+- Calendario de diciembre de 2026, únicamente el 19 marcado con corazón.
+- Cuenta regresiva al 19 de diciembre de 2026, 13:00, hora de Bolivia.
+- Mención de la celebración del 20 y ceremonia civil de las 16:00 según Canva.
+- Enlaces originales a la iglesia y al local.
+- WhatsApp +591 68508211 para consultas.
+- Pétalos animados y respeto a la preferencia de reducir movimiento.
+
+FORMULARIO
+Todavía no se creó ni vinculó en Google: la hoja requiere iniciar sesión.
+El archivo crear-formulario-boda.gs, entregado aparte, prepara un Google Form conectado a la hoja indicada. Se debe ejecutar desde Apps Script con la cuenta con acceso a esa hoja.
+Una vez creado, copiar el enlace PARA INVITADOS en el campo formulario de configuracion.js. Así aparece automáticamente el botón Confirmar asistencia.
+No usar el enlace de edición ni el enlace de la hoja como enlace para invitados.
+Antes de compartir, enviar una respuesta de prueba y comprobar que aparece en la hoja. Las respuestas pueden imprimirse desde Google Sheets.
+
+PUBLICACIÓN EN GITHUB PAGES
+Subir TODOS los archivos de ESTA carpeta al mismo nivel en el repositorio: index.html, estilo.css, invitacion.js, configuracion.js, novios.jpeg, marco-floral.png, paisaje.jpg, cancion.m4a y .nojekyll.
+No subir únicamente index.html. Conservar exactamente los nombres.
+La tipografía se descarga de Google Fonts; si no hay conexión se usa una alternativa del dispositivo. La foto, música y decoración están incluidas en la carpeta.
+
+PRUEBAS
+Diseño y apertura revisados en navegador de escritorio y vista de 390 × 844. Se verificaron la reproducción de música, calendario, cuenta regresiva y direcciones de los enlaces. Pendiente prueba física en WhatsApp/iPhone y prueba real del formulario, que requiere completar el acceso a Google.
+
+ACTUALIZACIÓN FLORAL
+Flores borgoña y blancas inspiradas en la referencia de Canva, presentes en la cabecera y entre todas las secciones. Cinco frases nuevas sobre amor y matrimonio. Aparición de textos al desplazarse, balanceo sutil de las flores, latido del corazón y brillo del sello; se respeta reducir movimiento.
+Incluir también flores-canva.png al subir el sitio.
+El formulario permanece pendiente por decisión del usuario mientras el cliente prepara su cuenta. La hoja ya es accesible por enlace, pero crear el formulario requiere una sesión de Google.
