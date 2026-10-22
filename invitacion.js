@@ -48,7 +48,7 @@ function revealSections() {
       }
     });
   }, {threshold: .08});
-  document.querySelectorAll('.blessing > :not(.floral-divider), .date-section > :not(.floral-divider), .moments > h2, .event, .sponsor-grid > div, .love-note, .rsvp > h2').forEach(element => {
+  document.querySelectorAll('.blessing > :not(.floral-divider), .date-section > :not(.floral-divider), .moments > h2, .event, .love-note, .rsvp > h2').forEach(element => {
     element.classList.add('scroll-reveal');
     observer.observe(element);
   });

@@ -20,3 +20,5 @@ El formulario pide nombre, asistencia, número de acompañantes, preferencias al
 La gestión de respuestas se realiza desde la cuenta de los novios en Google Forms o Google Sheets. No es necesario volver a ejecutar ningún script de creación.
 
 Verificado: formulario publicado y vinculado, preguntas visibles y enlace de la invitación configurado. No se enviaron respuestas ficticias. Conviene probar la invitación desde un teléfono y enviar una primera confirmación real antes de distribuirla.
+
+CORRECCIONES: se retiraron las conjunciones entre los nombres de los papás. La cruz queda junto a Martha Duran R. Ceremonia civil 20 diciembre 2026 a las 15:00. Se eliminó la sección completa de padrinos.

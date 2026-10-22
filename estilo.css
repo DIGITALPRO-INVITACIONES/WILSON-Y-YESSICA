@@ -41,3 +41,6 @@
 .adults-note>.wedding-icon{width:38px;height:38px;margin-bottom:16px;color:#e3c89b}.adults-note .eyebrow{font-size:.68rem;margin-bottom:18px}
 .adults-note p:not(.eyebrow){font:italic 1.35rem/1.6 var(--serif);margin-bottom:16px}.adults-note p:last-child{font:.8rem/1.8 var(--sans);margin-bottom:0;color:#f0dfcf}
 @media(max-width:650px){.adults-note{padding:28px 20px;border-radius:70px 70px 8px 8px}.wedding-icon{width:50px;height:50px}.icon-small{width:20px;height:20px}}
+
+/* Papás sin conjunciones y cruz junto al nombre. */
+.parents p{line-height:1.65}.parents .memory-name{display:inline-block;color:inherit;white-space:nowrap}.parents .memory-cross{display:inline;color:var(--gold);font-size:.8em;vertical-align:baseline;margin-left:.12em}
