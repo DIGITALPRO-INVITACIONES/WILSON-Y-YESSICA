@@ -73,3 +73,10 @@ updateCountdown();setInterval(updateCountdown,1000);
 if(window.BODA.formulario && /^https:\/\/(docs\.google\.com\/forms\/|forms\.gle\/)/.test(window.BODA.formulario)) {
   byId('rsvp-link').href=window.BODA.formulario;byId('rsvp-link').hidden=false;byId('rsvp-pending').hidden=true;
 }
+
+// Regresar desde la hoja de padrinos sin repetir el sobre.
+if(location.hash === "#padrinos-access") {
+ byId("cover").hidden=true; byId("invitation").hidden=false; musicButton.hidden=false; opening=true;
+ if(!reduced.matches) startPetals();
+ requestAnimationFrame(()=>byId("padrinos-access").scrollIntoView());
+}
